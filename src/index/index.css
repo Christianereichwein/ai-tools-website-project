@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom CSS for AI Tools Website */
+
+/* General Body Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+/* Container for overall app layout */
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main content area padding */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Centering and max-width for content */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Header for results section */
+.results-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.results-header h2 {
+  font-size: 2.5em;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.results-header p {
+  font-size: 1.1em;
+  color: #7f8c8d;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .results-header h2 {
+    font-size: 2em;
+  }
+
+  .results-header p {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-content {
+    padding: 10px;
+  }
+}
